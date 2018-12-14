@@ -49,16 +49,16 @@
       </google-codelab-step>
     
       <google-codelab-step label="PROCESS OUTLINE" duration="0">
-        <p>Exploratory Data Analysis</p>
-<p>Data pre-processing and Feature Engineering</p>
-<p>Model training  without hyperparameter tuning -trying out</p>
-<p>Model training after grid search and hyperparameter tuning </p>
-<p>Building data pipeline using Luigi</p>
-<p>Uploading pickled model to AWS S3</p>
-<p>Dockerizing entire pipeline</p>
-<p>Building a Flask app</p>
-<p>azure</p>
-<p>DEPLOYING THE ARCHITECTURE </p>
+        <p><strong>Exploratory Data Analysis</strong></p>
+<p><strong>Data pre-processing and Feature Engineering</strong></p>
+<p><strong>Tried out different Models for prediction</strong></p>
+<p><strong>Model training after grid search and hyperparameter tuning </strong></p>
+<p><strong>Building data pipeline using Luigi</strong></p>
+<p><strong>Uploading pickled model to AWS S3</strong></p>
+<p><strong>Dockerizing entire pipeline</strong></p>
+<p><strong>Use Azure ML Studio To predict and create  web service and deploy in cloud</strong></p>
+<p><strong>Building a Flask app</strong></p>
+<p><strong>DEPLOYING THE ARCHITECTURE </strong></p>
 <p>1. Get pickled models from AWS S3</p>
 <p>2. Get user input from flask web app</p>
 <p>8. Dockerize entire application</p>
@@ -76,6 +76,15 @@
 <p>4. Further We found that temperature and feels like temperature is highly correlated </p>
 <p>5. There is only one datapoint with Heavy Rain in the entire Training Dataset and two in the testing data</p>
 <p>6. Found some features which we assume to be important for prediction like temperature , hour , month , humidity , working day and  ,weather </p>
+<p><img style="max-width: 624.00px" src="img\a2d3caac893440bf.png"></p>
+<p>The mean rental count increased with respect to hour of day</p>
+<p><img style="max-width: 624.00px" src="img\37e18a69554073e2.png"></p>
+<p>An observation is that even though the mean count of rentals is low for the weekdays from 9am to 4pm, it is higher for Weekends.</p>
+<p>Mean rental count was highest during 7am to 8am and 5pm to 7pm.</p>
+<p><img style="max-width: 624.00px" src="img\24a00cf54beaa551.png"></p>
+<p>Mean Temperature and Feels like Temperature has a slight difference of 3 throughout</p>
+<p><img style="max-width: 624.00px" src="img\b70e992340a9df05.png"></p>
+<p>Heavy Rain weather had only one datapoint in the Training data set</p>
 <p><strong>PART 2: PreProcessing </strong></p>
 <p>1. Pre process the data and added features derived from datetime  </p>
 <p>2. Tried out different regression models and summarized the output</p>
